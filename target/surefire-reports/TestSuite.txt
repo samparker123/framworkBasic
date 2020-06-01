@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 21.298 s <<< FAILURE! - in TestSuite
+setup(regression.TestLoginFlow)  Time elapsed: 20.859 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TECH-SHIVAMMI', ip: '192.168.221.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002BA113+1548563]
+	Ordinal0 [0x0023DDA1+1039777]
+	Ordinal0 [0x001BE32E+516910]
+	Ordinal0 [0x001B8012+491538]
+	Ordinal0 [0x001B86EB+493291]
+	Ordinal0 [0x001B9855+497749]
+	Ordinal0 [0x001B5885+481413]
+	Ordinal0 [0x001BF0D0+520400]
+	Ordinal0 [0x0016C030+180272]
+	Ordinal0 [0x0016B59D+177565]
+	Ordinal0 [0x001695FB+169467]
+	Ordinal0 [0x0015160A+71178]
+	Ordinal0 [0x00152690+75408]
+	Ordinal0 [0x00152629+75305]
+	Ordinal0 [0x002571B7+1143223]
+	GetHandleVerifier [0x00352B46+507814]
+	GetHandleVerifier [0x00352864+507076]
+	GetHandleVerifier [0x00359F47+537511]
+	GetHandleVerifier [0x00353402+510050]
+	Ordinal0 [0x0024F29C+1110684]
+	Ordinal0 [0x0025938B+1151883]
+	Ordinal0 [0x002594F3+1152243]
+	Ordinal0 [0x002583F5+1147893]
+	BaseThreadInitThunk [0x779C6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77D27B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77D27B44+180]
+
+
